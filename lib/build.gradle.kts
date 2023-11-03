@@ -21,11 +21,11 @@ repositories {
 }
 
 dependencies {
-    compileOnlyApi("io.papermc.paper:paper-api:${paperVersion}")
-    compileOnlyApi("org.apache.commons:commons-text:1.10.0")
-    compileOnlyApi("com.fasterxml.jackson.core:jackson-databind:${jacksonVersion}")
-    compileOnlyApi("com.fasterxml.jackson.module:jackson-module-kotlin:${jacksonVersion}")
-    compileOnlyApi("com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:${jacksonVersion}")
-    compileOnlyApi("com.github.oraxen:oraxen:1.162.0")
-    compileOnlyApi("de.tr7zw:item-nbt-api-plugin:2.12.0")
+    compileOnly("io.papermc.paper:paper-api:${paperVersion}")
+    compileOnly("org.apache.commons:commons-text:1.10.0")
+    compileOnly("com.fasterxml.jackson.core:jackson-databind:${jacksonVersion}")
+    compileOnly("com.fasterxml.jackson.module:jackson-module-kotlin:${jacksonVersion}")
+    compileOnly("com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:${jacksonVersion}")
+    compileOnly("com.github.oraxen:oraxen:1.162.0")
+    compileOnly("de.tr7zw:item-nbt-api-plugin:2.12.0")
 }
